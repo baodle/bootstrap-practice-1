@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bao's Chips Review</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      .navtext {
+        font-size: 1.2rem;
+      }
+      .name{
+        font-family: 'courier new';
+        font-size: 1.8rem;
+      }
+      .imgborder{
+        border-style: solid;
+        border-width: 0.18rem;
+        border-radius: 3%;
+      }
+      .greenborder{
+        border-color: green;
+      }
+      .redborder{
+        border-color: red;
+      }
+      .yellowborder{
+        border-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="p-0 pt-5 jumbotron jumbotron-fluid bg-danger">
+      <div class="container text-center">
+        <h1 class="display-4 font-weight-normal" style="font-family: 'lucida handwriting'; color: white;">Bao's Chips Review</h1>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <ul class="navbar-nav ml-auto">
+          <li class="px-3 nav-item">
+            <a
+              class="nav-item nav-link navtext"
+              aria-current="page"
+              href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="px-3 nav-item">
+            <a class="nav-item nav-link active navtext" href="#">Reviews</a>
+          </li>
+          <li class="px-3 nav-item">
+            <a class="nav-item nav-link navtext" href="ranking.html">Ranking</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="dropright position-fixed sticky py-5 px-4" style="z-index:2;">
+        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="chipdropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Navigate
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#seaweedpotato">Calbee Seaweed Potato Chips</a>
+            <a class="dropdown-item" href="#chester">Chester's Fries</a>
+            <a class="dropdown-item" href="#classiclays">Classic Lays</a>
+            <a class="dropdown-item" href="#flaminhotlays">Flamin' Hot Lays</a>
+            <a class="dropdown-item" href="#hotcheetos">Flamin' Hot Cheetos</a>
+            <a class="dropdown-item" href="#hotonionrings">Funyuns Flamin' Hot Onion Rings</a>
+            <a class="dropdown-item" href="#onionrings">Funyuns Onion Rings</a>
+            <a class="dropdown-item" href="#jalapenoscheetos">Jalapenos Cheetos</a>
+            <a class="dropdown-item" href="#souronionlays">Sour Cream & Onion Lays</a>
+            <a class="dropdown-item" href="#xxtrahotcheetos">XXXTra Flamin' Hot Cheetos</a>
+        </div>
+      </div>
+    <div class="text-center py-5">
+        <h1 style="font-size: 3rem;">Chips Reviews</h1>
+    </div>
+    <div class="container py-3" style="padding-left: 10rem;">
+        <div class="row py-4" id="seaweedpotato">
+            <div class="col-sm-3 imgborder greenborder">
+                <img class="mx-auto d-block" src="img/seaweedpotato.webp" height="200" width=auto>
+            </div>
+            <div class="col text-center bg-light rounded px-5">
+                <p class="name text-success">Calbee Seaweed Potato Chips</p>
+                <p style="font-family: 'courier new'">
+                    Potato chips with seaweed flavors. The taste can vary on whether you like seaweed or not.
+                    But if you do, this can be one of the best chips you have ever eaten.
+                    The salty and savory flavor of seaweed mixes together with the crunchiness of potato chips
+                    to create a uniquely satisfying and addictive snack experience. Can be found in your local Asian supermarkets.
+                </p>
+            </div>
+        </div>
+        <div class="row py-4" id="chester">
+            <div class="col-sm-3 imgborder redborder">
+                <img class="mx-auto d-block py-1" src="img/chester.webp" height="200" width=auto>
+            </div>
+            <div class="col text-center bg-light rounded">
+                <p class="name text-danger">Chester's Fries</p>
+                <p style="font-family: 'courier new'">
+                    The sister brand of Cheetos. Offer a slightly lower degree of spicyness with an airier crunchiness when
+                    compared to the original Cheetos. As the name suggest, this chip does give a hint of french fries when bite into
+                    it. If you are craving a spicy snack but don't want to go overboard, this is definitely the one to go with.
+                </p>
+            </div>
+        </div>
+        <div class="row py-4" id="classiclays">
+            <div class="col-sm-3  imgborder yellowborder">
+                <img class="mx-auto d-block py-1" src="img/classiclays.webp" height="200" width=auto>
+            </div>
+            <div class="col text-center bg-light rounded">
+                <p class="name text-warning">Classic Lays</p>
+                <p style="font-family: 'courier new'">
+                    Good old classic potato chips flavor. You can never go wrong with this. Definitely can be 
+                    described as the most consistent chip in the market. Although the taste can be bland after a while.
+                </p>
+            </div>
+        </div>
+        <div class="row py-4" id="flaminhotlays">
+            <div class="col-sm-3 imgborder redborder">
+                <img class="mx-auto d-block py-1" src="img/flaminhotlays.webp" height="200" width=auto>
+            </div>
+            <div class="col text-center bg-light rounded">
+                <p class="name text-danger">Flamin' Hot Lays</p>
+                <p style="font-family: 'courier new'">
+                    One of the most popular flavors of Lays. A must pick for the ones that like spicy foods. The spicyness
+                    help elevates the taste of potato chips to a new level. Although the recipe
+                    has been modified several times over the years, the taste is still there and it continues 
+                    to evoke memories of comfort and satisfaction with every bite.
+                </p>
+            </div>
+        </div>
+        <div class="row py-4" id="hotcheetos">
+            <div class="col-sm-3 imgborder redborder">
+                <img class="mx-auto d-block py-1" src="img/hotcheetos.webp" height="200" width=auto>
+            </div>
+            <div class="col text-center bg-light rounded">
+                <p class="name text-danger">Flamin' Hot Cheetos</p>
+                <p style="font-family: 'courier new'">
+                    One of the oldest chips out there yet still maintaining its popularity throughout the years.
+                    The spicyness along with its crunchiness work together to attack your taste buds, making you
+                    want to continue eating it nonstop. If you are a fan of spicy chips, you should really give this a try.
+                </p>
+            </div>
+        </div>
+        <div class="row py-4" id="hotonionrings">
+            <div class="col-sm-3 imgborder redborder">
+                <img class="mx-auto d-block py-1" src="img/hotonionrings.webp" height="200" width=auto>
+            </div>
+            <div class="col text-center bg-light rounded">
+                <p class="name text-danger">Funyuns Flamin' Hot Onion Rings</p>
+                <p style="font-family: 'courier new'">
+                    Spicy version of Funyun's onion rings. With each crispy bite, you're greeted by a burst of intense 
+                    heat that perfectly complements the good old savory onion flavor. The spicy kick increase the flavor of
+                    the familiar taste, creating an unforgettable snacking experience.
+                </p>
+            </div>
+        </div>
+        <div class="row py-4" id="onionrings">
+            <div class="col-sm-3 imgborder yellowborder">
+                <img class="mx-auto d-block py-1" src="img/onionrings.webp" height="200" width=auto>
+            </div>
+            <div class="col text-center bg-light rounded">
+                <p class="name text-warning">Funyuns Onion Rings</p>
+                <p style="font-family: 'courier new'">
+                    Crunchy corn-based chips with a hint of onion flavor on top of it. The crispy crunch of the chips perfectly 
+                    complements the subtle yet savory notes of onion, creating a satisfying snacking experience. 
+                    Not something I would like to eat often, but definitely a perfect treat every once in a while.
+                </p>
+            </div>
+        </div>
+        <div class="row py-4" id="jalapenoscheetos">
+            <div class="col-sm-3 imgborder greenborder">
+                <img class="mx-auto d-block py-1" src="img/jalapenoscheetos.webp" height="200" width=auto>
+            </div>
+            <div class="col text-center bg-light rounded">
+                <p class="name text-success">Jalapenos Cheetos</p>
+                <p style="font-family: 'courier new'">
+                    Basically the non-spicy version of Cheetos with japapenos flakes on top of it. The mild heat of the jalapenos 
+                    complements the cheesy taste of the Cheetos, adding a subtle kick without overpowering the overall flavor profile.
+                    Definitely give this a try at least once.
+                </p>
+            </div>
+        </div>
+        <div class="row py-4" id="souronionlays">
+            <div class="col-sm-3 imgborder greenborder">
+                <img class="mx-auto d-block py-1" src="img/souronionlays.webp" height="200" width=auto>
+            </div>
+            <div class="col text-center bg-light rounded">
+                <p class="name text-success">Sour Cream & Onion Lays</p>
+                <p style="font-family: 'courier new'">
+                    Offer a tangy and savory flavor with a hint of sourness from the onions. Definitely more flavorful when
+                    compared to the regular lays. There's no reason not to try this if you come across it.
+                    Though throughout my experience, I have met a lot of people who dislikes onion so this review might
+                    not apply to those.
+                </p>
+            </div>
+        </div>
+        <div class="row py-4" id="xxtrahotcheetos">
+            <div class="col-sm-3 imgborder redborder">
+                <img class="mx-auto d-block py-1" src="img/xxtrahotcheetos.webp" height="200" width=auto>
+            </div>
+            <div class="col text-center bg-light rounded">
+                <p class="name text-danger">XXXTra Flamin' Hot Cheetos</p>
+                <p style="font-family: 'courier new'">
+                    One of the newer flavors of Cheetos in recent years. It's basically hot cheetos but about 2-3 hotter. 
+                    If you find the spicyness of regular hot Cheetos somewhat tame after a while, then this is a must try. <br>
+                    <b>(P/S: The aftermath can be severe so be careful)</b>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron-fluid text-center my-0 py-4 bg-dark">
+        <p class="text-white">Created by Bao Le. <br> Contact me at:<a href="mailto:someone@example.com"> baolehouth@gmail.com</a> </p>
+    </div>
+  </body>
+</html>
